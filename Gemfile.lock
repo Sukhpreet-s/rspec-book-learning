@@ -3,10 +3,10 @@ GEM
   specs:
     coderay (1.1.1)
     diff-lcs (1.5.1)
-    mustermann (1.1.2)
+    mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.10)
-    rack-protection (2.0.0)
+    rack-protection (3.0.5)
       rack
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
@@ -24,10 +24,10 @@ GEM
       rspec-support (~> 3.6.0)
     rspec-support (3.6.0)
     ruby2_keywords (0.0.5)
-    sinatra (2.0.0)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.0)
+    sinatra (3.0.5)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.5)
       tilt (~> 2.0)
     tilt (2.4.0)
 
@@ -39,7 +39,7 @@ DEPENDENCIES
   coderay (= 1.1.1)
   rack-test (= 0.7.0)
   rspec (= 3.6.0)
-  sinatra (= 2.0.0)
+  sinatra (= 3.0.5)
 
 BUNDLED WITH
    2.5.23
